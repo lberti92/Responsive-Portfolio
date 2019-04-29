@@ -220,10 +220,17 @@ input[type=submit] {
 /* Width at 980px and below */
 @media screen and (max-width: 980px) {
  
+  #masthead {
+    position: static;
+  }
+
 #logo {
   margin-left:5%;
 }
 
+#main-container  {
+padding-top: 10px;
+}
 nav {
   margin-right: 10%;
 }
@@ -233,11 +240,16 @@ nav {
   margin: 0 10px 50px;
 }
 
+footer {
+  margin-top: 100px;
+}
  
 /* Width at 768px and below */
 @media screen and (max-width: 768px) {
  
-
+  #masthead {
+    position: static;
+  }
   #logo {
     margin-left:2%;
   }
@@ -255,12 +267,17 @@ nav {
     margin: 0 20px 10px;
   }
 
+  footer {
+    margin-top: 100px;
+  }
 
 }
 /* Width at 640px and below */
 @media screen and (max-width: 640px) {
 
-
+  #masthead {
+    position: static;
+  }
 
 #logo {
   width:100%;
@@ -280,11 +297,12 @@ nav {
   }
 
   .work img {
+    float:none;
     max-width: 100%;
     height: auto;
-    image-orientation: center:
   }
   
+
 }
 /*
 
